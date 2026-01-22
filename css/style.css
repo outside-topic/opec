@@ -792,6 +792,292 @@ h6 {
 
 /* contact page css end */
 
+/* terms condition page css start */
+
+.opec-terms-hero {
+    background: linear-gradient(135deg, var(--primary-color), var(--dark-bg));
+    margin-top: 90px;
+}
+
+.opec-terms-title {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.opec-terms-brand {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.opec-terms-date {
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
+.opec-terms-wrapper {
+    background: var(--light-bg);
+}
+
+.opec-terms-card {
+    background: #fff;
+    border-radius: 22px;
+    padding: 3rem;
+    box-shadow: 0 25px 70px rgba(0,0,0,0.08);
+}
+
+.opec-terms-section {
+    margin-bottom: 2.8rem;
+}
+
+.opec-terms-section h2 {
+    font-family: var(--font-heading);
+    font-size: 1.35rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.opec-terms-section p {
+    margin-bottom: 0.8rem;
+}
+
+.opec-terms-section ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.opec-terms-section ul li {
+    margin-bottom: 0.4rem;
+}
+
+.opec-terms-contact {
+    border-top: 2px solid #e5e5e5;
+    padding-top: 2rem;
+}
+
+
+/* terms condition page css end */
+
+/* refund and cancellation page css start */
+
+.opec-refund-hero {
+    background: linear-gradient(135deg, var(--primary-color), var(--dark-bg));
+    margin-top: 90px;
+}
+
+.opec-refund-title {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.opec-refund-brand {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.opec-refund-date {
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
+.opec-refund-wrapper {
+    background: var(--light-bg);
+}
+
+.opec-refund-card {
+    background: #fff;
+    border-radius: 22px;
+    padding: 3rem;
+    box-shadow: 0 25px 70px rgba(0,0,0,0.08);
+}
+
+.opec-refund-section {
+    margin-bottom: 2.8rem;
+}
+
+.opec-refund-section h2 {
+    font-family: var(--font-heading);
+    font-size: 1.35rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.opec-refund-subheading {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.opec-refund-section p {
+    margin-bottom: 0.8rem;
+}
+
+.opec-refund-section ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.opec-refund-section ul li {
+    margin-bottom: 0.4rem;
+}
+
+.opec-refund-contact {
+    border-top: 2px solid #e5e5e5;
+    padding-top: 2rem;
+}
+
+/* refund and cancellation page css end */
+
+/* privacy policy page css start */
+
+/* HERO SECTIONS */
+.opec-privacy-hero,
+.opec-ethics-hero {
+    background: linear-gradient(135deg, var(--primary-color), var(--dark-bg));
+    margin-top: 90px;
+}
+
+/* TITLES */
+.opec-privacy-title,
+.opec-ethics-title {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+
+}
+
+.opec-privacy-brand,
+.opec-ethics-brand {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.opec-privacy-date {
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
+/* WRAPPERS */
+.opec-privacy-wrapper,
+.opec-ethics-wrapper {
+    background: var(--light-bg);
+}
+
+/* CARDS */
+.opec-privacy-card,
+.opec-ethics-card {
+    background: #fff;
+    border-radius: 22px;
+    padding: 3rem;
+    box-shadow: 0 25px 70px rgba(0,0,0,0.08);
+}
+
+/* SECTIONS */
+.opec-privacy-section,
+.opec-ethics-section {
+    margin-bottom: 2.8rem;
+}
+
+.opec-privacy-section h2,
+.opec-ethics-section h2 {
+    font-family: var(--font-heading);
+    font-size: 1.35rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+/* SUBHEADINGS */
+.opec-privacy-subheading,
+.opec-ethics-subheading {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+/* LISTS */
+.opec-privacy-section ul,
+.opec-ethics-section ul {
+    padding-left: 1.2rem;
+    margin-bottom: 0.8rem;
+    
+}
+
+.opec-privacy-section ul li,
+.opec-ethics-section ul li {
+    margin-bottom: 0.4rem;
+}
+
+/* CONTACT SECTIONS */
+.opec-privacy-contact {
+    border-top: 2px solid #e5e5e5;
+    padding-top: 2rem;
+}
+
+
+/* privacy policy page css end */
+
+/* ================================
+   Data Protection Policy Styles
+   ================================ */
+
+.opec-dataprotection-wrapper {
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.opec-dataprotection-card {
+  border-radius: 18px;
+  background: #ffffff;
+}
+
+.opec-dataprotection-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #265367;
+}
+
+.opec-dataprotection-section {
+  margin-bottom: 2rem;
+}
+
+.opec-dataprotection-section h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #706127;
+  margin-bottom: 0.75rem;
+}
+
+.opec-dataprotection-section p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+.opec-dataprotection-list {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+}
+
+.opec-dataprotection-list li {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+/* Small devices */
+@media (max-width: 576px) {
+  .opec-dataprotection-title {
+    font-size: 1.6rem;
+  }
+
+  .opec-dataprotection-section h5 {
+    font-size: 1rem;
+  }
+}
+
+
 /* Footer */
 footer {
     background-color: var(--dark-bg);
