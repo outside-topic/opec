@@ -680,6 +680,117 @@ h6 {
 
 /* trainning domain section end */
 
+/* contact page css start */
+.opec-contact-hero {
+    background: linear-gradient(135deg, var(--primary-color), var(--dark-bg));
+}
+
+.opec-contact-title {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+}
+
+.opec-contact-subtitle {
+    max-width: 720px;
+    font-size: 1.1rem;
+}
+
+.opec-contact-intro {
+    background: var(--light-bg);
+}
+
+.opec-intro-text {
+    max-width: 820px;
+    font-size: 1.1rem;
+}
+
+.opec-enquiry-card {
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    height: 100%;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.opec-enquiry-card:hover {
+    transform: translateY(-6px);
+}
+
+.opec-enquiry-card-featured {
+    border-top: 5px solid var(--secondary-color);
+}
+
+.opec-card-title {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.opec-card-desc {
+    margin-bottom: 1.2rem;
+}
+
+.opec-card-list {
+    padding-left: 1.2rem;
+}
+
+.opec-card-list li {
+    margin-bottom: 0.6rem;
+}
+
+.opec-process-section {
+    background: var(--light-bg);
+}
+
+.opec-section-heading {
+    font-family: var(--font-heading);
+}
+
+.opec-process-box {
+    background: #fff;
+    padding: 1.8rem;
+    border-radius: 14px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+.opec-form-wrapper {
+    background: #fff;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+}
+
+.opec-form-input {
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+}
+
+.opec-submit-btn {
+    background: var(--accent-color);
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2.8rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.opec-submit-btn:hover {
+    background: #7f0c26;
+}
+
+.opec-commitment-section {
+    background: var(--primary-color);
+}
+
+.opec-commitment-text {
+    max-width: 820px;
+}
+
+/* contact page css end */
 
 /* Footer */
 footer {
