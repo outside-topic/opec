@@ -21,24 +21,52 @@
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <!-- Top Bar -->
+    <div class="top-bar d-none d-lg-block">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <div class="logo-placeholder">O</div>
-                OPEC
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="top-bar-left">
+                    <span class="me-3"><i class="bi bi-envelope me-1"></i> info@opec.edu</span>
+                    <span><i class="bi bi-telephone me-1"></i> +44 20 1234 5678</span>
+                </div>
+                <div class="top-bar-right">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="./about.html">About Us</a></li>
+                        <li class="list-inline-item"><a href="./code_ethics.html">Code of Ethics</a></li>
+                        <li class="list-inline-item"><a href="./trainning-domains.html">Domains</a></li>
+                        <li class="list-inline-item ms-3"><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="main_nav_logo" src="./images/OXFORD Academy Logo.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html#specializations">Programs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+
+                    <li class="nav-item d-lg-none d-block"><a class="nav-link" href="./about.html">About Us</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="./programs-trainnings.html">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./learning-experience.html">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./partnerships.html">Partnership</a></li>
+
+                    <li class="nav-item d-lg-none d-block"><a class="nav-link" href="./code_ethics.html">Code of ethics</a></li>
+
+                    <li class="nav-item d-lg-none d-block"><a class="nav-link" href="./trainning-domains.html">Domains</a></li>
+
                     <li class="nav-item ms-lg-3">
-                        <a href="index.html#contact" class="btn btn-primary-custom">Get Certified</a>
+                        <a href="./contact.html" class="btn btn-primary-custom">Get Certified</a>
                     </li>
                 </ul>
             </div>
@@ -320,42 +348,78 @@
         </div>
     </section>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="footer-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <a href="#" class="footer-logo">OPEC</a>
-                    <p class="footer-desc">Empowering professionals worldwide with competency-based education and
-                        ethically grounded training standards.</p>
+                <!-- Brand Column -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <a href="#" class="footer-logo">
+                        <img src="./images/OXFORD Academy Logo.png" alt="OPEC Logo" class="mb-3" style="height: 60px;">
+                    </a>
+                    <p class="footer-desc">Empowering professionals worldwide with competency-based education and ethically grounded training standards. Bridging the gap between academia and industry.</p>
+                    <div class="social-links pt-2">
+                        <a href="#" class="social-btn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-btn"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-btn"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
+                    </div>
                 </div>
+
+                <!-- Quick Links -->
                 <div class="col-lg-2 col-md-6 mb-4 mb-md-0 footer-links">
-                    <h5>Quick Links</h5>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="index.html#specializations">Programs</a></li>
-                        <li><a href="index.html#contact">Contact</a></li>
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./programs-trainnings.html">Programs</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./code_ethics.html">Code of Ethics</a></li>
                     </ul>
                 </div>
+
+                <!-- Programs -->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0 footer-links">
-                    <h5>Programs</h5>
-                    <ul>
-                        <li><a href="#">Competency Dev</a></li>
-                        <li><a href="#">Executive Leadership</a></li>
-                        <li><a href="#">Corporate Training</a></li>
+                    <h5 class="footer-heading">Important Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./refund-policy.html">Refund Policy</a></li>
+                        <li><a href="./programs-trainnings.html">Programs</a></li>
+                        <li><a href="./partnerships.html">Partnerships</a></li>
+                        <li><a href="./learning-experience.html">Learning Experience</a></li>
+                        <li><a href="./training-domains.html">Trainning Domains</a></li>
                     </ul>
                 </div>
+
+                <!-- Contact -->
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h5>Contact Us</h5>
-                    <ul>
-                        <li><i class="bi bi-geo-alt me-2"></i> Oxford, United Kingdom</li>
-                        <li><i class="bi bi-envelope me-2"></i> info@opec.edu</li>
-                        <li><i class="bi bi-telephone me-2"></i> +44 20 1234 5678</li>
+                    <h5 class="footer-heading">Contact Us</h5>
+                    <ul class="list-unstyled contact-info-list">
+                        <li>
+                            <i class="bi bi-envelope-fill"></i>
+                            <a href="mailto:info@opec.edu">info@opec.edu</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-telephone-fill"></i>
+                            <a href="tel:+442012345678">+44 20 1234 5678</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="copyright">
-                <p class="mb-0">&copy; 2024 Oxford Professional Education & Certification. All Rights Reserved.</p>
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="mb-0">&copy; 2026 Oxford Professional Education & Certification.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <ul class="list-inline mb-0 footer-legal">
+                            <li class="list-inline-item"><a href="./privacy-policy.html">Privacy Policy</a></li>
+                            <li class="list-inline-item"><a href="./refund-policy.html">Refund Policy</a></li><li class="list-inline-item"><a href="./data_policy.html">Data Policy</a></li>
+                            <li class="list-inline-item"><a href="./terms_condition.html">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
